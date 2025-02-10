@@ -2,7 +2,7 @@
 sudo dnf install -y gcc make unzip gettext curl
 
 cd /tmp
-wget -O nvim.tar.gz "https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz"
+wget -O nvim.tar.gz "https://github.com/neovim/neovim/releases/download/v0.10.4/nvim-linux-x86_64.tar.gz"
 tar -xf nvim.tar.gz
 sudo install nvim-linux-x86_64/bin/nvim /usr/local/bin/nvim
 sudo cp -R nvim-linux-x86_64/lib /usr/local/
